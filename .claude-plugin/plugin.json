@@ -1,0 +1,14 @@
+{
+  "name": "avance-de-agente",
+  "version": "0.1.0",
+  "description": "Panel con el avance de cada agente de una investigación: una barra por agente, leída de progreso/<rol>.json",
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "carpeta": {
+      "type": "string",
+      "title": "Carpeta de investigaciones",
+      "description": "Carpeta con una subcarpeta por investigación, cada una con progreso/<rol>.json. Relativa al directorio de la sesión, o absoluta",
+      "default": "lineamientos/investigaciones"
+    }
+  }
+}

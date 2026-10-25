@@ -1,0 +1,5 @@
+{
+  "name": "avance-de-agente",
+  "owner": { "name": "gonzalogiovannelli" },
+  "plugins": [{ "name": "avance-de-agente", "source": "./" }]
+}
